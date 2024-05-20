@@ -25,6 +25,7 @@ class DataResponse(BaseModel):
     state_id: str
 
 class DataDetailedResponse(BaseModel):
+    id: str
     p_name: str
     address: str
     city: str
